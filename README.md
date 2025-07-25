@@ -52,3 +52,33 @@ Built with **PyQt5**, the interface includes:
 git clone https://github.com/yourusername/buddy-voice-assistant.git
 cd buddy-voice-assistant
 pip install -r requirements.txt
+
+SETUP
+Add your API keys in buddy.py:
+openai.api_key = "your_openrouter_api_key"
+serpapi_api_key = "your_serpapi_key"
+STABILITY_API_KEY = "your_stability_api_key"
+Run the assistant:
+bash
+python buddy_gui.py
+```
+FUTURE ENHANCEMENTS
+Custom voice profiles
+
+Wake-word training
+
+Offline fallback mode
+
+Weather forecast widget
+
+Image generation gallery
+
+AND MORE......
+
+Contributing
+Pull requests are welcome! For major changes, please open an issue first.
+
+✨ Developed by
+Mohammed Fawwaz
+@fawwazsid
+
